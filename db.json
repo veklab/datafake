@@ -13,7 +13,7 @@
     "name": "actads"
   },
   "type_sols" : [
-    {"id:" "1" , "name": "argileux" },
-    {"id:" "2" , "name": "granit" }
+    {"id": 1 , "name": "argileux" },
+    {"id": 2 , "name": "granit" }
   ]
 }
