@@ -1,14 +1,19 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "exploitation": [
+    { "id": 1, "name": "exploitation 1", "divers": {"cotisation": 1345}, "emprunt": {"somme": 1500} },
+    { "id": 2, "name": "exploitation 2", "divers": {"cotisation": 1345}, "emprunt": {"somme": 1500} },
+    { "id": 3, "name": "exploitation 3", "divers": {"cotisation": 1345}, "emprunt": {"somme": 1500} }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "parcelle": [
+    { "id": 1, "exploitationId": "1", "surface": 10 , "type_sols": 1},
+    { "id": 2, "exploitationId": "1", "surface": 20 , "type_sols": 2},
+    { "id": 3, "exploitationId": "2", "surface": 200 , "type_sols": 1}
   ],
   "profile": {
-    "name": "typicode"
-  }
+    "name": "actads"
+  },
+  "type_sols" : [
+    {"id:" 1, "name": "argileux" },
+    {"id:" 2, "name": "granit" }
+  ]
 }
