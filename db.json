@@ -1,13 +1,13 @@
 {
   "exploitation": [
-    { "id": 1, "name": "exploitation 1", "divers": {"cotisation": 1345}, "emprunt": {"somme": 1500} },
-    { "id": 2, "name": "exploitation 2", "divers": {"cotisation": 1345}, "emprunt": {"somme": 1500} },
-    { "id": 3, "name": "exploitation 3", "divers": {"cotisation": 1345}, "emprunt": {"somme": 1500} }
+    { "id": 1, "name": "exploitation 1", "divers": {"cotisation": "1345"}, "emprunt": {"somme": "1500"} },
+    { "id": 2, "name": "exploitation 2", "divers": {"cotisation": "1345"}, "emprunt": {"somme": "1500"} },
+    { "id": 3, "name": "exploitation 3", "divers": {"cotisation": "1345"}, "emprunt": {"somme": "1500"} }
   ],
   "parcelle": [
-    { "id": 1, "exploitationId": "1", "surface": 10 , "type_sols": 1},
-    { "id": 2, "exploitationId": "1", "surface": 20 , "type_sols": 2},
-    { "id": 3, "exploitationId": "2", "surface": 200 , "type_sols": 1}
+    { "id": 1, "exploitationId": "1", "surface": "10" , "type_sols": "1"},
+    { "id": 2, "exploitationId": "1", "surface": "20" , "type_sols": "2"},
+    { "id": 3, "exploitationId": "2", "surface": "200" , "type_sols": "1"}
   ],
   "profile": {
     "name": "actads"
