@@ -1,8 +1,8 @@
 {
   "exploitation": [
-    { "id": 1, "name": "exploitation 1", "divers": {"cotisation": "1345"}, "emprunt": {"somme": "1500"}, "commentaire":"" },
-    { "id": 2, "name": "exploitation 2", "divers": {"cotisation": "1345"}, "emprunt": {"somme": "1500"}, "commentaire":"" },
-    { "id": 3, "name": "exploitation 3", "divers": {"cotisation": "1345"}, "emprunt": {"somme": "1500"}, "commentaire":"" }
+    { "id": 1, "name": "exploitation 1", "divers": {"cotisation": "1345"}, "emprunt": {"somme": "1500"}, "commentaire":"", "nombre_parcelle":2 },
+    { "id": 2, "name": "exploitation 2", "divers": {"cotisation": "1345"}, "emprunt": {"somme": "1500"}, "commentaire":"", "nombre_parcelle":1 },
+    { "id": 3, "name": "exploitation 3", "divers": {"cotisation": "1345"}, "emprunt": {"somme": "1500"}, "commentaire":"", "nombre_parcelle":0 }
   ],
   "parcelle": [
     { "id": 1, "exploitationId": "1", "surface": "10" , "type_sols": "1"},
