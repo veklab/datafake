@@ -1,8 +1,11 @@
 {
   "exploitation": [
-    { "id": 1, "name": "exploitation 1", "divers": {"cotisation": "1345"}, "emprunt": {"somme": "1500"}, "commentaire":"", "nombre_parcelle":2 },
-    { "id": 2, "name": "exploitation 2", "divers": {"cotisation": "1345"}, "emprunt": {"somme": "1500"}, "commentaire":"", "nombre_parcelle":1 },
-    { "id": 3, "name": "exploitation 3", "divers": {"cotisation": "1345"}, "emprunt": {"somme": "1500"}, "commentaire":"", "nombre_parcelle":0 }
+    { "id": 1, "name": "exploitation 1", "divers": {"cotisation": "1345"}, 
+      "emprunt": {"somme": "1500"}, "commentaire":"", "nombre_parcelle":2, "campagneId": 1 },
+    { "id": 2, "name": "exploitation 2", "divers": {"cotisation": "1345"}, 
+      "emprunt": {"somme": "1500"}, "commentaire":"", "nombre_parcelle":1, "campagneId": 1 },
+    { "id": 3, "name": "exploitation 3", "divers": {"cotisation": "1345"}, 
+      "emprunt": {"somme": "1500"}, "commentaire":"", "nombre_parcelle":0 , "campagneId": 2}
   ],
   "parcelle": [
     { "id": 1, "exploitationId": "1", "surface": "10" , "type_sols": "1"},
@@ -15,5 +18,10 @@
   "type_sols" : [
     {"id": 1 , "name": "argileux" },
     {"id": 2 , "name": "granit" }
+  ],
+  "campagne" : [
+    { "id": 1, "annee": "2012" },
+    { "id": 2, "annee": "2013" },
+    { "id": 3, "annee": "2014" },
   ]
 }
